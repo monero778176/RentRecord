@@ -10,10 +10,15 @@ python 3.8 <br>
 ### 套件使用
 參照requirements.txt，安裝必要套件後即可執行 <br>
 在虛擬環境中cmd<br>
-<code>
+```
 pip install -r requirements.txt
-</code>
+```
+### 資料夾用途
+[1] file：存著範例excel檔案、可供選擇讀取<br>
+[2] save：輸出新的excel檔案<br>
+[3] ui：放pyqt ui檔<br>
 
-
+## 最新修正版
+請使用rent3.py執行
 
 
