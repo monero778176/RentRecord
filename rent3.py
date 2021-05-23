@@ -16,7 +16,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
 
         self.ui.checkHistoryFile.setChecked(True)
-        self.ui.filepath.setText(r"C:\Users\syaun\Desktop\Rent\file\202103.xlsx")
+        self.ui.filepath.setText(r"")
         self.ui.getFilePathButton.clicked.connect(self.getFileData)
         self.ui.getDataButton.clicked.connect(self.getDataOut)
         self.ui.goCalculate.clicked.connect(self.calculate)
